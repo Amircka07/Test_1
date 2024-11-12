@@ -1,0 +1,46 @@
+h2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 42px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  width: 699px;
+  /* padding-top: 42px; */
+  /* height: 55px; */
+  /* padding-bottom: 20px; */
+  /* margin-bottom: 20px; */
+  padding-right: 491px;
+  /* padding-left: 250px; */
+  margin-left: 250px;
+}
+h2:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+
+span {
+  width: 163px;
+  height: 25px;
+  padding-left: 266px;
+}
+span:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+.bookItem {
+  /* padding-top: 20px; */
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 150%;
+  color: #000;
+}

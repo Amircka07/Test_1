@@ -1,0 +1,14 @@
+.image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 243.9px;
+  margin-right: 1281px;
+  margin-bottom: 45px;
+  /* margin-right: 441px; */
+  padding-right: 441.1px;
+}
+.image:root {
+  --font-family: "Roboto", sans-serif;
+}
